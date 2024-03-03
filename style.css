@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+main .main {
+    width: 100%;
+    background: linear-gradient(rgba(10, 9, 9, 0.5), rgba(28, 28, 28, 0.8)), url(./images/mosque-4.jpg) center center;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title {
+    color: white;
+    font-size: 60px;
+    margin-top: px;
+    text-align: center;
+    font-weight: 600;
+}
+.title p{
+    font-size: 20px;
+    color: yellow;
+}
+
+.timing {
+    height: 100px;
+    width: 600px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+}
+
+.show label {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.show input {
+    display: block;
+    width: 100px;
+    height: 60px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    text-align: center;
+    color: yellow;
+    font-weight: 600;
+
+}
